@@ -33,3 +33,4 @@ An elegant solution makes use of a single dimensional array and solves using Rec
 Implement the class EightQueens
 public void solve();
 
+
