@@ -131,9 +131,12 @@ public class Sorter
             }
             
             // Swap it with the current position
-            nTemp = anInOut[i];
-            anInOut[i] = anInOut[nMinSubscript];
-            anInOut[nMinSubscript] = nTemp;
+            if (i != nMinSubscript)
+            {
+                nTemp = anInOut[i];
+                anInOut[i] = anInOut[nMinSubscript];
+                anInOut[nMinSubscript] = nTemp;
+            }
         }
     }
 
