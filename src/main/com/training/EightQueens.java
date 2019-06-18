@@ -4,6 +4,8 @@
 //
 // Create Date: Nov 13, 2003
 //
+// https://peppybytes.blogspot.com/2019/06/programming-problems-eight-queens.html
+//
 //=========================================================================
 
 package com.training;
