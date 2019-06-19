@@ -4,7 +4,7 @@
 //
 // Create Date: Nov 13, 2003
 //
-// <a href="https://peppybytes.blogspot.com/2019/06/programming-problems-eight-queens.html">Peppy Bytes</a>
+// https://peppybytes.blogspot.com/2019/06/programming-problems-eight-queens.html
 //
 //=========================================================================
 
