@@ -72,7 +72,12 @@ public class Fibonacci
      *
      * @param - n the integer value for which the result has to be found out.
      */
-    public int fibUsingSingleRecursion(int n, int[] anPrevFibOut)
+    public int fibUsingSingleRecursion(int n)
+    {
+        return fibUsingSingleRecursion(n, new int[1]);
+    }
+
+    private int fibUsingSingleRecursion(int n, int[] anPrevFibOut)
     {
         int fibMinusOne;
         int fibMinusTwo;
@@ -94,10 +99,5 @@ public class Fibonacci
 
         anPrevFibOut[0] = fibMinusOne;
         return (fibMinusOne + fibMinusTwo);
-    }
-
-    public int fibUsingSingleRecursion(int n)
-    {
-        return fibUsingSingleRecursion(n, new int[1]);
     }
 }
