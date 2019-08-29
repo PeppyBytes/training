@@ -157,3 +157,31 @@ public int findMaxSubsequenceSumUsingBruteForce(int[] anInput);
 public int findMaxSubsequenceSumUsingDivideAndConquer(int[] anInput);
 
 
+
+6. Number Pattern
+
+Observe the pattern of numbers given below.
+
+      1
+     1 1
+    1 2 1
+   1 3 3 1
+  1 4 6 4 1
+ 1 5 10 10 5 1
+1 6 15 20 15 6 1
+
+
+The pattern has following properties.
+
+1. Assuming that the row and the column numbers start from 1, the number of columns in a row is
+equal to the row number. (No. of Columns = RowNum).
+2. In a row, the value of the first and last columns are always 1.
+3. In any row, the value of a cell is the sum of its adjacent cells in the previous row.
+CellVal(RowNum, ColNum) = CellVal(RowNum - 1, ColNum - 1) + CellVal(RowNum - 1, ColNum)
+
+The problem is to find the cell value, given a row number and a column number.
+
+
+Implement the class NumberPattern with the following public method.
+
+public int getCellVal(int nRowNum, int nColNum);
